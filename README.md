@@ -4,7 +4,7 @@ Result: about 30% of new users activate in their first 7 days, activation is hig
 Tools: SQL Server (SSMS), Power BI, DAX
 
 Data: synthetic dataset of 5,000 users (no real customer data)
-![Overview page](page1_overview.png.png
+![Overview page](page1_overview.png.png)
 ![Deep dive page](page2_deep_dive.png.png)
 ---
 1. Business context
