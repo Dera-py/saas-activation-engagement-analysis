@@ -4,8 +4,8 @@ Result: about 30% of new users activate in their first 7 days, activation is hig
 Tools: SQL Server (SSMS), Power BI, DAX
 
 Data: synthetic dataset of 5,000 users (no real customer data)
-![Overview page](dashboard/screenshots/page1_overview.png)
-![Deep dive page](dashboard/screenshots/page2_deep_dive.png)
+![Overview page](dashboard/screenshots/page1_overview.png.png)
+![Deep dive page](dashboard/screenshots/page2_deep_dive.png.png)
 ---
 1. Business context
 The product is used by organizations of all sizes, from very small teams up to large enterprises. It follows a well-known SaaS strategy called freemium, or product-led growth (PLG). Because it is a PLG business, conversion from free to paid is one of the most important things the business cares about. This is why activation and feature adoption become central business questions.
