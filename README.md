@@ -28,7 +28,11 @@ Saved the two reusable results as SQL views so Power BI can use them as tables:
 Modelled the data in Power BI: the views link to `users` on `user_id`, and `DimDate` links to `signup_date`.
 Designed a two-page dashboard with a dark theme and a single teal highlight colour.
 Why views and not rebuilding the logic in DAX: the activation and conversion rules were already written and verified in SQL. Saving them as views reused that work and kept one source of truth. The percentages live in Power BI measures, not in the views, so every slicer click recalculates them.
-Every number was checked against an independent SQL result before it went on the dashboard. The SQL for both views is in the `sql` folder.
+Every number was checked against an independent SQL result before it went on the dashboard.
+
+Project files:
+- [View SQL analysis scripts](sql/)
+- [View Power BI dashboard file](dashboard/)
 
 5. Key definitions
 Activated user: a user who performed at least one of seven core events within seven days of their signup date. The seven events are `project_created`, `task_created`, `teammate_invited`, `file_uploaded`, `integration_connected`, `time_tracking_used`, and `custom_field_created`.
